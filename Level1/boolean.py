@@ -93,4 +93,6 @@ grade = 'A'
 
 print("Passed" if grade in ['A','B','C'] else "Failed")
 print("Gongrats!" if grade == 'A' else '')
+list_ = []
 
+print('HAVE ELEMENTS'  if list_ else "IS EMPTY" )
